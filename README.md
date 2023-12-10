@@ -5,7 +5,7 @@ A tiny logging module for Lua.
 
 
 ## Installation
-The [log.lua](log.lua?raw=1) file should be dropped into an garrysmod/addons/
+The [lua/autorun/log.lua](lua/autorun/log.lua?raw=1) file should be dropped into an garrysmod/addons/
 
 ```bash
 git clone https://github.com/chadlrnsn/pretty-log.git
