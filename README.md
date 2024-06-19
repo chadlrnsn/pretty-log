@@ -5,7 +5,14 @@ A tiny logging module for Lua.
 
 
 ## Installation
-The [lua/autorun/log.lua](lua/autorun/log.lua?raw=1) file should be dropped into an garrysmod/addons/
+> [!IMPORTANT]
+> You should initialize like this
+```lua
+hook.Add("Initialize", "InitLogs", function()
+    // your stuff here
+end)
+```
+The [lua/autorun/log.lua](lua/autorun/log.lua?raw=1) file should be dropped into an ``garrysmod/addons/``
 
 ```bash
 git clone https://github.com/chadlrnsn/pretty-log.git
@@ -37,7 +44,8 @@ end
 
 s(33, 2)
 ```
-Output 
+
+### Output
 ![Output](https://i.imgur.com/JTkJfE0.png)
 
 ### Additional options
